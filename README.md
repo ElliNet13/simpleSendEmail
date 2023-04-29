@@ -1,4 +1,4 @@
 # simpleSendEmail
 My npm package <br>
 To figure out how to use this look here: https://github.com/ElliNet13/simpleSendEmail/wiki <br>
-Fully updated version here: https://drive.google.com/drive/folders/1rpQYm6I1dcZCR06XH7gtojYc8z8bG4F4
+Dev version here: https://drive.google.com/drive/folders/1rpQYm6I1dcZCR06XH7gtojYc8z8bG4F4
