@@ -1,5 +1,5 @@
-function exports.sendMessage(email, password, to, subject, message) {
-    var nodemailer = require('nodemailer');
+exports.sendMessage = function(email, password, to, subject, message) {
+      var nodemailer = require('nodemailer');
     var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -21,8 +21,8 @@ transporter.sendMail(mailOptions, function(error, info){
   }
 });
 }
-function exports.sendHTML(email, password, to, suhject, html) {
-    var nodemailer = require('nodemailer');
+exports.sendHTML = function(email, password, to, suhject, html) {
+      var nodemailer = require('nodemailer');
     var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
