@@ -1,2 +1,2 @@
 # simpleSendEmail
-For my npm package
+My npm package
